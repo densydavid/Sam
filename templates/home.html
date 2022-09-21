@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    {% load static %}
+<title>first</title>    
+</head>
+<body>
+    <h1>KERALA</h1>
+    <p>
+        Kerala is one of the southern states of India. It has 14 districts.
+    </p>
+    <ul>
+        <li>
+    <a href="{% url 'thrissur_page' %}">
+        Thrissur
+    </a></li>
+   <li> <a href="{% url 'kannur_page' %}">
+        Kannur
+    </a></li>
+    <li>
+    <a href="{% url 'kozhikode_page' %}">
+       Kozhikode
+    </a></li>
+    <li><a href="{% url 'palakkad_page' %}">
+        Palakkad
+    </a></li>
+    <li><a href="{% url 'wayanad_page' %}">
+        Wayanad
+    </a></li>
+    </ul>
+</body>
+</html>
